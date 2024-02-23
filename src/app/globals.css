@@ -2,32 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield !important;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+p {
+  @apply leading-7 text-paragraph;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.landing_wrapper {
+  @apply relative w-full min-h-svh bg-[#032b88] text-white z-10 before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-black before:opacity-0 before:-z-10 after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-shape-bg after:bg-cover after:bg-fixed after:-z-10;
+}
+
+.landing_container {
+  @apply max-w-screen-xl mx-auto px-5;
+}
+
+.menu-wrapper {
+  @apply relative z-50;
+}
+
+.menu-wrapper .menu-backdrop {
+  @apply hidden max-lg:block max-lg:w-full max-lg:h-full max-lg:fixed max-lg:left-0 max-lg:top-0 max-lg:bg-black-500 -z-10 max-lg:invisible max-lg:opacity-0 max-lg:transition-all max-lg:duration-500;
+}
+
+.menu-wrapper.active .menu-backdrop {
+  @apply max-lg:visible max-lg:opacity-100;
+}
+
+.menu-wrapper .menus {
+  @apply relative flex items-center max-lg:flex-col max-lg:fixed max-lg:left-[-100%] max-lg:top-0 max-lg:w-64 max-lg:h-full max-lg:py-8 max-lg:bg-[#032b88] max-lg:transition-all max-lg:duration-500 z-50;
+}
+
+.menu-wrapper.active .menus {
+  @apply max-lg:left-0;
 }
