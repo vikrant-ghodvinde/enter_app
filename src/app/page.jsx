@@ -37,7 +37,7 @@ export default function Home() {
                   className="menu-backdrop"
                   onClick={() => setMenuToggle(!menuToggle)}
                 ></div>
-                <ul className="menus">
+                <ul className="menus overflow-y-auto">
                   <li className="relative hidden max-lg:block mb-6">
                     <Link href="/">
                       <Image
@@ -89,7 +89,7 @@ export default function Home() {
                       Whitepaper
                     </Link>
                   </li>
-                  <li className="relative mx-3 max-lg:my-1">
+                  {/* <li className="relative mx-3 max-lg:my-1">
                     <Link
                       href="https://enterapp.io/"
                       target="_blank"
@@ -98,7 +98,7 @@ export default function Home() {
                     >
                       enterapp.io
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className="relative flex items-center gap-3">
@@ -139,25 +139,29 @@ export default function Home() {
                 consequuntur assumenda. Numquam, iusto.
               </p>
               <div className="relative flex items-center gap-5 flex-wrap my-10">
-                <button
-                  type="button"
+                <Link
+                  href="https://enterapp.io/"
+                  target="_blank"
+                  rel="noreferrer"
                   className="block relative uppercase py-2.5 px-6 text-sm border-2 border-white bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#1773ea] hover:border-[#1773ea] transition duration-300"
                 >
-                  Pre-Sale
-                </button>
-                <button
-                  type="button"
-                  className="block relative uppercase py-2.5 px-6 text-sm border-2 border-[#1773ea] text-white rounded-badge font-medium hover:text-white hover:bg-[#1773ea] transition duration-300"
+                  enterapp.io
+                </Link>
+                <Link
+                  href="/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block relative uppercase py-2.5 px-6 text-sm border-2 border-white text-white rounded-badge font-medium hover:text-black hover:bg-white transition duration-300"
                 >
-                  WhitePaper
-                </button>
+                  View Presale Contract
+                </Link>
               </div>
               <div className="flex items-center max-lg:justify-center flex-wrap gap-5">
                 <Link
                   href="https://twitter.com/Enterapp_io"
                   target="_blank"
                   rel="noreferrer"
-                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                  className="flex items-center justify-center w-9 h-9 rounded-full bg-white text-[#1773ea] shadow shadow-white text-xs hover:text-black transition duration-300"
                 >
                   <X />
                 </Link>
@@ -165,7 +169,7 @@ export default function Home() {
                   href="https://t.me/enterapp_io"
                   target="_blank"
                   rel="noreferrer"
-                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                  className="flex items-center justify-center w-9 h-9 rounded-full bg-white text-[#1773ea] shadow shadow-white text-xs hover:text-black transition duration-300"
                 >
                   <Telegram />
                 </Link>
@@ -173,7 +177,7 @@ export default function Home() {
                   href="https://t.me/enterapp_group"
                   target="_blank"
                   rel="noreferrer"
-                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                  className="flex items-center justify-center w-9 h-9 rounded-full bg-white text-[#1773ea] shadow shadow-white text-xs hover:text-black transition duration-300"
                 >
                   <Telegram />
                 </Link>
@@ -181,7 +185,7 @@ export default function Home() {
                   href="https://www.facebook.com/enterapp.io"
                   target="_blank"
                   rel="noreferrer"
-                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                  className="flex items-center justify-center w-9 h-9 rounded-full bg-white text-[#1773ea] shadow shadow-white text-xs hover:text-black transition duration-300"
                 >
                   <Facebook />
                 </Link>
@@ -189,7 +193,7 @@ export default function Home() {
                   href="https://www.youtube.com/@EntyLabs"
                   target="_blank"
                   rel="noreferrer"
-                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                  className="flex items-center justify-center w-9 h-9 rounded-full bg-white text-[#1773ea] shadow shadow-white text-xs hover:text-black transition duration-300"
                 >
                   <Youtube />
                 </Link>
@@ -197,7 +201,7 @@ export default function Home() {
                   href="https://discord.gg/Fw4uCRCDek"
                   target="_blank"
                   rel="noreferrer"
-                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                  className="flex items-center justify-center w-9 h-9 rounded-full bg-white text-[#1773ea] shadow shadow-white text-xs hover:text-black transition duration-300"
                 >
                   <Discord />
                 </Link>
@@ -205,7 +209,7 @@ export default function Home() {
                   href="https://www.linkedin.com/company/enterapp-io/?viewAsMember=true"
                   target="_blank"
                   rel="noreferrer"
-                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                  className="flex items-center justify-center w-9 h-9 rounded-full bg-white text-[#1773ea] shadow shadow-white text-xs hover:text-black transition duration-300"
                 >
                   <Linkedin />
                 </Link>
@@ -213,7 +217,7 @@ export default function Home() {
                   href="https://medium.com/@entylabs"
                   target="_blank"
                   rel="noreferrer"
-                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                  className="flex items-center justify-center w-9 h-9 rounded-full bg-white text-[#1773ea] shadow shadow-white text-xs hover:text-black transition duration-300"
                 >
                   <Medium />
                 </Link>
@@ -236,35 +240,35 @@ export default function Home() {
             </h2>
           </div>
           <div className="grid grid-cols-12 gap-y-8 gap-x-5">
-            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-[#1773ea] before:rounded-badge">
+            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">PreSale</p>
               <h4 className="text-xl font-bold">8.20%</h4>
             </div>
-            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-[#1773ea] before:rounded-badge">
+            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">
                 Public sale
               </p>
               <h4 className="text-xl font-bold">1.00%</h4>
             </div>
-            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-[#1773ea] before:rounded-badge">
+            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">
                 Treasury Locked
               </p>
               <h4 className="text-xl font-bold">43.40%</h4>
             </div>
-            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-[#1773ea] before:rounded-badge">
+            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">
                 Liquidity Locked
               </p>
               <h4 className="text-xl font-bold">8.20%</h4>
             </div>
-            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-[#1773ea] before:rounded-badge">
+            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">
                 Marketing, Airdrop & Bounty Program
               </p>
               <h4 className="text-xl font-bold">1.00%</h4>
             </div>
-            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-[#1773ea] before:rounded-badge">
+            <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">
                 Staking Rewards/Cashback
               </p>
@@ -358,7 +362,7 @@ export default function Home() {
           </div>
           <div className="relative text-center mt-5">
             <Link
-              href="https://entylabs.gitbook.io/enterapp.io/roadmap"
+              href="https://entylabs.gitbook.io/enterapp.io/fundamentals/faqs"
               target="_blank"
               rel="noreferrer"
               className="inline-block relative py-2 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#1773ea] transition duration-300"
@@ -370,81 +374,186 @@ export default function Home() {
       </section>
       <footer className="relative py-10">
         <div className="landing_container">
-          <div className="relative flex max-lg:flex-col items-center justify-between gap-5">
-            <Link href="/">
-              <Image
-                src="/images/logo.png"
-                alt="enterapp"
-                width={200}
-                height={200}
-                className="w-12 h-12"
-              />
-            </Link>
-            <div className="flex items-center max-lg:justify-center flex-wrap gap-5">
-              <Link
-                href="https://twitter.com/Enterapp_io"
-                target="_blank"
-                rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
-              >
-                <X />
+          <div className="grid grid-cols-12 gap-x-14 max-md:gap-x-0 gap-y-8">
+            <div className="relative col-span-3 max-md:col-span-12 max-lg:col-span-4">
+              <Link href="/">
+                <Image
+                  src="/images/logo.png"
+                  alt="enterapp"
+                  width={200}
+                  height={200}
+                  className="w-12 h-12"
+                />
               </Link>
-              <Link
-                href="https://t.me/enterapp_io"
-                target="_blank"
-                rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
-              >
-                <Telegram />
-              </Link>
-              <Link
-                href="https://t.me/enterapp_group"
-                target="_blank"
-                rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
-              >
-                <Telegram />
-              </Link>
-              <Link
-                href="https://www.facebook.com/enterapp.io"
-                target="_blank"
-                rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
-              >
-                <Facebook />
-              </Link>
-              <Link
-                href="https://www.youtube.com/@EntyLabs"
-                target="_blank"
-                rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
-              >
-                <Youtube />
-              </Link>
-              <Link
-                href="https://discord.gg/Fw4uCRCDek"
-                target="_blank"
-                rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
-              >
-                <Discord />
-              </Link>
-              <Link
-                href="https://www.linkedin.com/company/enterapp-io/?viewAsMember=true"
-                target="_blank"
-                rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
-              >
-                <Linkedin />
-              </Link>
-              <Link
-                href="https://medium.com/@entylabs"
-                target="_blank"
-                rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
-              >
-                <Medium />
-              </Link>
+              <p className="my-3">
+                <span className="text-white">enterapp.io</span> is a project by
+                GlobalEntyLabs s.r.o aka EntyLabs Czech Republic, Europe
+              </p>
+              <p className="my-3">
+                The financial Analytical Office (FAU) Czech National Bank (CNB)
+                Virtual Asset VASP License
+              </p>
+            </div>
+            <div className="relative col-span-3 max-md:col-span-12 max-lg:col-span-4">
+              <h5 className="text-lg font-semibold mb-5 max-md:mb-2">
+                Project
+              </h5>
+              <ul>
+                <li>
+                  <Link
+                    href="https://www.enterapp.io/#home"
+                    target="_blank"
+                    className="block text-paragraph py-1.5 hover:text-[#1773ea] transition duration-300"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://www.enterapp.io/#about"
+                    target="_blank"
+                    className="block text-paragraph py-1.5 hover:text-[#1773ea] transition duration-300"
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://www.enterapp.io/#features"
+                    target="_blank"
+                    className="block text-paragraph py-1.5 hover:text-[#1773ea] transition duration-300"
+                  >
+                    Features
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://www.enterapp.io/#tokenomics"
+                    target="_blank"
+                    className="block text-paragraph py-1.5 hover:text-[#1773ea] transition duration-300"
+                  >
+                    Tokenomics
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="relative col-span-3 max-md:col-span-12 max-lg:col-span-4">
+              <h5 className="text-lg font-semibold mb-5 max-md:mb-2">
+                Get Informed
+              </h5>
+              <ul>
+                <li>
+                  <Link
+                    href="https://polygonscan.com/token/0x25b70fa255fb51b40e82a73b1661e95d8c568870"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block text-paragraph py-1.5 hover:text-[#1773ea] transition duration-300"
+                  >
+                    Verified
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://200945230-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FZyAZDjtHZ37ZUKB08GmT%2Fuploads%2Foju7d5kqho9zXBsGpHJo%2FEntyToken%20Security%20Audit%20Report.pdf?alt=media&token=eab1aa52-97c4-46b4-9d2b-cfdb43b11c5a"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block text-paragraph py-1.5 hover:text-[#1773ea] transition duration-300"
+                  >
+                    Audit
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://entylabs.gitbook.io/enterapp.io/roadmap"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block text-paragraph py-1.5 hover:text-[#1773ea] transition duration-300"
+                  >
+                    Roadmap
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://entylabs.gitbook.io/enterapp.io/overview/welcome-introduction-of-enterapp.io"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block text-paragraph py-1.5 hover:text-[#1773ea] transition duration-300"
+                  >
+                    Whitepaper
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="relative col-span-3 max-lg:col-span-12">
+              <h5 className="text-lg max-lg:text-center font-semibold mb-5">
+                Stay connected and be our Fan
+              </h5>
+              <div className="flex items-center max-lg:justify-center flex-wrap gap-5">
+                <Link
+                  href="https://twitter.com/Enterapp_io"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                >
+                  <X />
+                </Link>
+                <Link
+                  href="https://t.me/enterapp_io"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                >
+                  <Telegram />
+                </Link>
+                <Link
+                  href="https://t.me/enterapp_group"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                >
+                  <Telegram />
+                </Link>
+                <Link
+                  href="https://www.facebook.com/enterapp.io"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                >
+                  <Facebook />
+                </Link>
+                <Link
+                  href="https://www.youtube.com/@EntyLabs"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                >
+                  <Youtube />
+                </Link>
+                <Link
+                  href="https://discord.gg/Fw4uCRCDek"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                >
+                  <Discord />
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/company/enterapp-io/?viewAsMember=true"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                >
+                  <Linkedin />
+                </Link>
+                <Link
+                  href="https://medium.com/@entylabs"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block text-sm hover:text-[#1773ea] transition duration-300"
+                >
+                  <Medium />
+                </Link>
+              </div>
             </div>
           </div>
           <div className="text-center mt-8">

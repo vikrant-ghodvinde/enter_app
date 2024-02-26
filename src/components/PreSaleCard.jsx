@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const PreSaleCard = () => {
   const [amountType, setAmountType] = useState("ETH");
   return (
-    <div className="relative rounded-3xl border-2 border-[#1773ea]">
+    <div className="relative rounded-3xl border-2 border-white">
       <div className="relative p-5">
         <div className="relative text-center">
           <h2 className="text-xl font-bold">PRESALE STAGE 1 BEGINS IN</h2>
@@ -29,28 +29,28 @@ const PreSaleCard = () => {
           <p className="text-sm">Stage 1 Price: $0.0035 USDT</p>
         </div>
         <div className="relative my-5">
-          <div data-title="Listing Price: $0.0115 USDT" className="relative mb-5 h-5 w-full before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:w-full before:h-1 before:rounded-full before:bg-[#1773ea] after:content-[attr(data-title)] after:absolute after:left-[50%] after:translate-x-[-50%] after:text-sm after:bg-[#032b88] after:px-5"></div>
-          <div className="flex items-center justify-center gap-5 flex-wrap">
+          <div data-title="Listing Price: $0.0115 USDT" className="relative flex justify-center mb-5 h-5 w-full before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:w-full before:h-1 before:rounded-full before:bg-white after:content-[attr(data-title)] after:relative after:text-sm after:bg-[#012370] after:px-3"></div>
+          <div className="flex items-center justify-center gap-3 flex-wrap">
             <button
               type="button"
-              className={`inline-flex items-center justify-center gap-2 relative min-w-32 h-full py-2 px-6 text-xs border-2 border-[#1773ea] text-white rounded-badge leading-none font-semibold hover:text-white hover:bg-[#1773ea] transition duration-300 ${
-                amountType === "ETH" ? "bg-[#1773ea]" : ""
+              className={`inline-flex items-center justify-center gap-2 relative min-w-32 h-full py-2 px-5 text-xs border-2 border-white rounded-badge leading-none font-semibold hover:text-black hover:bg-white transition duration-300 ${
+                amountType === "MATIC" ? "bg-white text-black" : ""
               }`}
-              onClick={() => setAmountType("ETH")}
+              onClick={() => setAmountType("MATIC")}
             >
               <Image
-                src="/images/icons/eth-circle.svg"
+                src="/images/icons/matic-circle.svg"
                 alt=""
                 width={100}
                 height={100}
                 className="w-6 h-6"
               />
-              <span>ETH</span>
+              <span>MATIC</span>
             </button>
             <button
               type="button"
-              className={`inline-flex items-center justify-center gap-2 relative min-w-32 h-full py-2 px-6 text-xs border-2 border-[#1773ea] text-white rounded-badge leading-none font-semibold hover:text-white hover:bg-[#1773ea] transition duration-300 ${
-                amountType === "USDT" ? "bg-[#1773ea]" : ""
+              className={`inline-flex items-center justify-center gap-2 relative min-w-32 h-full py-2 px-5 text-xs border-2 border-white rounded-badge leading-none font-semibold hover:text-black hover:bg-white transition duration-300 ${
+                amountType === "USDT" ? "bg-white text-black" : ""
               }`}
               onClick={() => setAmountType("USDT")}
             >
@@ -68,8 +68,8 @@ const PreSaleCard = () => {
             </button>
             <button
               type="button"
-              className={`inline-flex items-center justify-center gap-2 relative min-w-32 h-full py-2 px-6 text-xs border-2 border-[#1773ea] text-white rounded-badge leading-none font-semibold hover:text-white hover:bg-[#1773ea] transition duration-300 ${
-                amountType === "USDC" ? "bg-[#1773ea]" : ""
+              className={`inline-flex items-center justify-center gap-2 relative min-w-32 h-full py-2 px-5 text-xs border-2 border-white rounded-badge leading-none font-semibold hover:text-black hover:bg-white transition duration-300 ${
+                amountType === "USDC" ? "bg-white text-black" : ""
               }`}
               onClick={() => setAmountType("USDC")}
             >
@@ -83,6 +83,24 @@ const PreSaleCard = () => {
               <div className="relative">
                 <span className="block">USDC</span>
                 <span className="text-[8px]">ERC20</span>
+              </div>
+            </button>
+            <button
+              type="button"
+              className={`inline-flex items-center justify-center gap-2 relative min-w-32 h-full py-2 px-5 text-xs border-2 border-white rounded-badge leading-none font-semibold hover:text-black hover:bg-white transition duration-300 ${
+                amountType === "CARD" ? "bg-white text-black" : ""
+              }`}
+              onClick={() => setAmountType("CARD")}
+            >
+              <Image
+                src="/images/icons/credit-card.svg"
+                alt=""
+                width={100}
+                height={100}
+                className="w-6 h-6"
+              />
+              <div className="relative">
+                <span className="block">CARD</span>
               </div>
             </button>
           </div>
