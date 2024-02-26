@@ -399,7 +399,7 @@ export default function Home() {
                 The financial Analytical Office (FAU) Czech National Bank (CNB)
                 Virtual Asset VASP License
               </p>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center flex-wrap gap-4">
                 <Image src="/images/comp-logo-1.png" alt="" width={200} height={200} className="w-24" />
                 <Image src="/images/comp-logo-2.png" alt="" width={200} height={200} className="w-24" />
               </div>
