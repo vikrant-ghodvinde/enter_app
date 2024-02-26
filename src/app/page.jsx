@@ -243,36 +243,42 @@ export default function Home() {
             <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">PreSale</p>
               <h4 className="text-xl font-bold">8.20%</h4>
+              <h6 className="text-sm font-semibold">820.000.000 ENTY Token</h6>
             </div>
             <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">
                 Public sale
               </p>
               <h4 className="text-xl font-bold">1.00%</h4>
+              <h6 className="text-sm font-semibold">100.000.000 ENTY Token</h6>
             </div>
             <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">
                 Treasury Locked
               </p>
               <h4 className="text-xl font-bold">43.40%</h4>
+              <h6 className="text-sm font-semibold">4.34.000.000 ENTY Token</h6>
             </div>
             <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">
                 Liquidity Locked
               </p>
               <h4 className="text-xl font-bold">8.20%</h4>
+              <h6 className="text-sm font-semibold">4.34.000.000 ENTY Token</h6>
             </div>
             <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">
                 Marketing, Airdrop & Bounty Program
               </p>
               <h4 className="text-xl font-bold">1.00%</h4>
+              <h6 className="text-sm font-semibold">100.000.000 ENTY Token</h6>
             </div>
             <div className="relative col-span-3 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
               <p className="text-sm font-semibold uppercase mb-2">
                 Staking Rewards/Cashback
               </p>
               <h4 className="text-xl font-bold">3.00%</h4>
+              <h6 className="text-sm font-semibold">300.000.000 ENTY Token</h6>
             </div>
           </div>
         </div>
@@ -393,6 +399,10 @@ export default function Home() {
                 The financial Analytical Office (FAU) Czech National Bank (CNB)
                 Virtual Asset VASP License
               </p>
+              <div className="flex items-center gap-4">
+                <Image src="/images/comp-logo-1.png" alt="" width={200} height={200} className="w-24" />
+                <Image src="/images/comp-logo-2.png" alt="" width={200} height={200} className="w-24" />
+              </div>
             </div>
             <div className="relative col-span-3 max-md:col-span-12 max-lg:col-span-4">
               <h5 className="text-lg font-semibold mb-5 max-md:mb-2">
@@ -557,6 +567,32 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center mt-8">
+            <ul className="flex items-center justify-center flex-wrap mb-5">
+              <li>
+                <Link
+                  href="/"
+                  className="block text-sm text-paragraph hover:text-[#1773ea] p-2 transition duration-300"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="block text-sm text-paragraph hover:text-[#1773ea] p-2 transition duration-300"
+                >
+                  Legal use
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="block text-sm text-paragraph hover:text-[#1773ea] p-2 transition duration-300"
+                >
+                  Term of use
+                </Link>
+              </li>
+            </ul>
             <p className="text-sm">
               Copyright &copy; 2024. All Rights Reserved by GlobalEntyLabs
               s.r.o, CZ, Europe
