@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const PreSaleCard = () => {
@@ -10,26 +11,29 @@ const PreSaleCard = () => {
           <h2 className="text-xl font-bold">PRESALE STAGE 1 BEGINS IN</h2>
           <div className="flex items-center justify-evenly gap-5 my-8">
             <div className="relative">
-              <h4 className="text-2xl font-semibold">20</h4>
+              <h4 className="text-2xl font-semibold">45</h4>
               <p className="text-xs">Days</p>
             </div>
             <div className="relative">
-              <h4 className="text-xl font-semibold">20</h4>
+              <h4 className="text-2xl font-semibold">11</h4>
               <p className="text-xs">Hours</p>
             </div>
             <div className="relative">
-              <h4 className="text-xl font-semibold">20</h4>
+              <h4 className="text-2xl font-semibold">30</h4>
               <p className="text-xs">Minutes</p>
             </div>
             <div className="relative">
-              <h4 className="text-xl font-semibold">20</h4>
+              <h4 className="text-2xl font-semibold">20</h4>
               <p className="text-xs">Seconds</p>
             </div>
           </div>
           <p className="text-sm">Stage 1 Price: $0.0035 USDT</p>
         </div>
         <div className="relative my-5">
-          <div data-title="Listing Price: $0.0115 USDT" className="relative flex justify-center mb-5 h-5 w-full before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:w-full before:h-1 before:rounded-full before:bg-white after:content-[attr(data-title)] after:relative after:text-sm after:bg-[#012370] after:px-3"></div>
+          <div
+            data-title="Listing Price: $0.0115 USDT"
+            className="relative flex justify-center mb-5 h-5 w-full before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:w-full before:h-1 before:rounded-full before:bg-white after:content-[attr(data-title)] after:relative after:text-sm after:bg-[#012370] after:px-3"
+          ></div>
           <div className="flex items-center justify-center gap-3 flex-wrap">
             <button
               type="button"
@@ -145,18 +149,18 @@ const PreSaleCard = () => {
               <div className="relative col-span-1 max-sm:col-span-2">
                 <button
                   type="button"
-                  className="block relative w-full py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#1773ea] transition duration-300"
+                  className="block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#1773ea] transition duration-300"
                 >
                   Buy Tokens
                 </button>
               </div>
               <div className="relative col-span-1 max-sm:col-span-2">
-                <button
-                  type="button"
-                  className="block relative w-full py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#1773ea] transition duration-300"
+                <Link
+                  href="how-to-buy"
+                  className="block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#1773ea] transition duration-300"
                 >
                   How To Buy
-                </button>
+                </Link>
               </div>
             </div>
           </div>
