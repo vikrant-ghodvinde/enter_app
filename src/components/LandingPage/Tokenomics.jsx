@@ -16,17 +16,17 @@ const Tokenomics = () => {
             The ENTY token is burnable and fully decentralized EVM compatible
           </p>
         </div>
-        <div className="relative grid grid-cols-2 gap-5 items-center mb-14">
-          <div className="relative col-span-1 max-lg:col-span-2">
+        <div className="relative grid grid-cols-12 gap-5 items-center mb-14">
+          <div className="relative col-span-4 max-lg:col-span-2">
             <Image
               src="/images/enty-token.webp"
               alt=""
               width={500}
               height={500}
-              className="w-full h-full max-w-lg mx-auto"
+              className="w-full h-full max-w-md mx-auto"
             />
           </div>
-          <div className="relative col-span-1 max-lg:col-span-2">
+          <div className="relative col-span-8 max-lg:col-span-2">
             <div className="grid items-center gap-5 grid-cols-2">
               <div className="relative col-span-1 max-md:col-span-2">
                 <div className="relative p-5 rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#6A97FF] before:backdrop-blur-md before:opacity-10 before:-z-10">
@@ -85,7 +85,7 @@ const Tokenomics = () => {
             <p className="text-sm font-semibold uppercase mb-2">
               Liquidity Locked
             </p>
-            <h4 className="text-xl font-bold">8.20%</h4>
+            <h4 className="text-xl font-bold">43.40%</h4>
             <h6 className="text-sm font-semibold">4.34.000.000 ENTY Token</h6>
           </div>
           <div className="relative col-span-4 max-lg:col-span-4 max-md:col-span-6 max-sm:col-span-12 py-2 px-5 before:absolute before:left-0 before:top-0 before:w-1.5 before:h-full before:bg-white before:rounded-badge">
