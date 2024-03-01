@@ -10,7 +10,7 @@ const PreSaleCard = () => {
       <div className="relative rounded-3xl border-2 border-white">
         <div className="relative p-5">
           <div className="relative text-center">
-            <h2 className="text-xl font-bold">PRESALE STAGE 1 BEGINS IN</h2>
+            <h2 className="text-xl font-bold font-heading">PRESALE STAGE 1 BEGINS IN</h2>
             <div className="flex items-center justify-evenly gap-5 my-8">
               <div className="relative">
                 <h4 className="text-2xl font-semibold">45</h4>
