@@ -11,7 +11,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "shape-bg": "url('/images/shape-i.png')",
+        "shape-bg": "url('/images/allo-pattern.png')",
         "title-gradient": "linear-gradient(180deg, #000 0%, #eef3fc 100%)",
       },
       backgroundColor: {
@@ -28,6 +28,9 @@ module.exports = {
       colors: {
         paragraph: "#9fb3d4",
       },
+      fontFamily: {
+        heading: "'Sirin Stencil', sans-serif"
+      }
     },
   },
   plugins: [require("daisyui"), require("@tailwindcss/typography")],

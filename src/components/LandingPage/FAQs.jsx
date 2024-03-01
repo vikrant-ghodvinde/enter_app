@@ -5,7 +5,7 @@ const FAQs = () => {
   return (
     <section className="relative py-14" id='faqs'>
         <div className="landing_container">
-          <div className="text-center mb-20">
+          <div className="text-center font-heading mb-20">
             <h2
               data-title="FAQs"
               className="relative uppercase text-4xl max-lg:text-2xl font-bold z-10 before:content-[attr(data-title)]  before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[50%] before:translate-y-[-50%] before:text-[100px] before:text-[#1773ea] before:-z-10 before:opacity-5 before:whitespace-nowrap"

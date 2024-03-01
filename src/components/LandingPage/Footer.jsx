@@ -1,4 +1,5 @@
 import {
+  BitcoinCircle,
   Discord,
   Facebook,
   Linkedin,
@@ -13,7 +14,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="relative py-10">
+    <footer className="relative py-14 border-t border-[#1773ea]">
       <div className="landing_container">
         <div className="grid grid-cols-12 gap-x-14 max-md:gap-x-0 gap-y-8">
           <div className="relative col-span-3 max-md:col-span-12 max-lg:col-span-4">
@@ -171,7 +172,7 @@ const Footer = () => {
                 href="https://twitter.com/Enterapp_io"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
+                className="block text-sm hover:opacity-60 transition duration-300"
               >
                 <X />
               </Link>
@@ -179,7 +180,7 @@ const Footer = () => {
                 href="https://t.me/enterapp_io"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
+                className="block text-sm hover:opacity-60 transition duration-300"
               >
                 <Telegram />
               </Link>
@@ -187,7 +188,7 @@ const Footer = () => {
                 href="https://t.me/enterapp_group"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
+                className="block text-sm hover:opacity-60 transition duration-300"
               >
                 <Telegram />
               </Link>
@@ -195,7 +196,7 @@ const Footer = () => {
                 href="https://www.facebook.com/enterapp.io"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
+                className="block text-sm hover:opacity-60 transition duration-300"
               >
                 <Facebook />
               </Link>
@@ -203,7 +204,7 @@ const Footer = () => {
                 href="https://www.youtube.com/@EntyLabs"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
+                className="block text-sm hover:opacity-60 transition duration-300"
               >
                 <Youtube />
               </Link>
@@ -211,7 +212,7 @@ const Footer = () => {
                 href="https://discord.gg/Fw4uCRCDek"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
+                className="block text-sm hover:opacity-60 transition duration-300"
               >
                 <Discord />
               </Link>
@@ -219,7 +220,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/enterapp-io/?viewAsMember=true"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
+                className="block text-sm hover:opacity-60 transition duration-300"
               >
                 <Linkedin />
               </Link>
@@ -227,9 +228,25 @@ const Footer = () => {
                 href="https://medium.com/@entylabs"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:text-[#1773ea] transition duration-300"
+                className="block text-sm hover:opacity-60 transition duration-300"
               >
                 <Medium />
+              </Link>
+              <Link
+                href="https://bitcointalk.org/index.php?action=profile;u=3585597;sa=forumProfile"
+                target="_blank"
+                rel="noreferrer"
+                className="block text-sm hover:opacity-60 transition duration-300"
+              >
+                <BitcoinCircle />
+              </Link>
+              <Link
+                href="https://bitcointalk.org/index.php?action=profile;u=3585597;sa=forumProfile"
+                target="_blank"
+                rel="noreferrer"
+                className="block text-sm hover:opacity-60 transition duration-300"
+              >
+                <Image src="/images/icons/social/coinmarketcap.svg" alt="" width={100} height={100} className="w-5 h-5" />
               </Link>
             </div>
           </div>
