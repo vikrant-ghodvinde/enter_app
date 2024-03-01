@@ -10,7 +10,7 @@ const PreSaleCard = () => {
       <div className="relative rounded-3xl border-2 border-white">
         <div className="relative p-5">
           <div className="relative text-center">
-            <h2 className="text-xl font-bold font-heading">PRESALE STAGE 1 BEGINS IN</h2>
+            <h2 className="text-xl font-bold">PRESALE STAGE 1 BEGINS IN</h2>
             <div className="flex items-center justify-evenly gap-5 my-8">
               <div className="relative">
                 <h4 className="text-2xl font-semibold">45</h4>
@@ -34,7 +34,7 @@ const PreSaleCard = () => {
           <div className="relative my-5">
             <div
               data-title="Listing Price: $0.0115 USDT"
-              className="relative flex justify-center mb-5 h-5 w-full before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:w-full before:h-1 before:rounded-full before:bg-white after:content-[attr(data-title)] after:relative after:text-sm after:bg-[#012370] after:px-3"
+              className="relative flex justify-center mb-5 h-5 w-full before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:w-full before:h-1 before:rounded-full before:bg-white after:content-[attr(data-title)] after:relative after:text-sm after:bg-[#032B88] after:px-3"
             ></div>
             <div className="flex items-center justify-center gap-3 flex-wrap">
               <button
@@ -151,7 +151,7 @@ const PreSaleCard = () => {
                 <div className="relative col-span-1 max-sm:col-span-3 max-lg:col-span-1 max-xl:col-span-3">
                   <button
                     type="button"
-                    className="block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#1773ea] transition duration-300"
+                    className="block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] transition duration-300"
                   >
                     Buy Tokens
                   </button>
@@ -159,7 +159,7 @@ const PreSaleCard = () => {
                 <div className="relative col-span-1 max-sm:col-span-3 max-lg:col-span-1 max-xl:col-span-3">
                   <button
                     type="button"
-                    className="block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#1773ea] transition duration-300"
+                    className="block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] transition duration-300"
                     onClick={() =>
                       document.getElementById("purchaseHistoryModal").showModal()
                     }
@@ -172,7 +172,7 @@ const PreSaleCard = () => {
                     href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/how-to-buy"
                     target="_blank"
                     rel="noreferrer"
-                    className="block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#1773ea] transition duration-300"
+                    className="block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] transition duration-300"
                   >
                     How To Buy
                   </Link>

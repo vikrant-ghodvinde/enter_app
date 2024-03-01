@@ -28,9 +28,6 @@ module.exports = {
       colors: {
         paragraph: "#9fb3d4",
       },
-      fontFamily: {
-        heading: "'Sirin Stencil', sans-serif"
-      }
     },
   },
   plugins: [require("daisyui"), require("@tailwindcss/typography")],

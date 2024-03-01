@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Sirin+Stencil&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,7 +20,7 @@ p {
 }
 
 .landing_wrapper {
-  @apply relative w-full min-h-svh bg-[#012370] text-white z-10 before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-black before:opacity-0 before:-z-10;
+  @apply relative w-full min-h-svh bg-[#032B88] text-white z-10 before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-black before:opacity-0 before:-z-10;
 }
 
 .landing_container {
@@ -41,7 +40,7 @@ p {
 }
 
 .menu-wrapper .menus {
-  @apply relative flex items-center max-lg:flex-col max-lg:fixed max-lg:left-[-100%] max-lg:top-0 max-lg:w-64 max-lg:h-full max-lg:py-8 max-lg:bg-[#012370] max-lg:transition-all max-lg:duration-500 z-50;
+  @apply relative flex items-center max-lg:flex-col max-lg:fixed max-lg:left-[-100%] max-lg:top-0 max-lg:w-64 max-lg:h-full max-lg:py-8 max-lg:bg-[#032B88] max-lg:transition-all max-lg:duration-500 z-50;
 }
 
 .menu-wrapper.active .menus {

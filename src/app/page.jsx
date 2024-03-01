@@ -16,7 +16,7 @@ export default function Home() {
         <div className="landing_container">
           <div className="grid grid-cols-2 items-center gap-8">
             <div className="relative col-span-1 max-lg:col-span-2">
-              <h1 className="text-3xl max-lg:text-xl font-heading font-semibold mb-4 leading-normal">
+              <h1 className="text-3xl max-lg:text-xl font-semibold mb-4 leading-normal">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Aliquam enim fuga perferendis praesentium qui.!
               </h1>
@@ -32,7 +32,7 @@ export default function Home() {
                   href="https://enterapp.io/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block relative lowercase py-2.5 px-6 text-sm border-2 border-white bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#1773ea] hover:border-[#1773ea] transition duration-300"
+                  className="block relative lowercase py-2.5 px-6 text-sm border-2 border-white bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] hover:border-[#6A97FF] transition duration-300"
                 >
                   enterapp.io
                 </Link>
@@ -46,7 +46,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="relative">
-                <p className="font-medium font-heading">
+                <p className="font-medium">
                   Follow and subscribe to our Social Media channels to be a part
                   of our upcoming Presale:
                 </p>
@@ -206,7 +206,7 @@ export default function Home() {
       <Footer />
 
       {/* DESIGN ELEMENTS */}
-      <div className="fixed bottom-0 right-10 w-80 h-80 rounded-full bg-[#1773ea] blur-3xl -z-50 opacity-50"></div>
+      <div className="fixed bottom-0 right-10 w-80 h-80 rounded-full bg-[#6A97FF] blur-3xl -z-50 opacity-50"></div>
     </div>
   );
 }

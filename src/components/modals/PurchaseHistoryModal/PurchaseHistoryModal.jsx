@@ -3,7 +3,7 @@ import React from "react";
 const PurchaseHistoryModal = () => {
   return (
     <dialog id="purchaseHistoryModal" className="modal bg-black-400">
-      <div className="modal-box max-w-5xl bg-[#012370] text-white">
+      <div className="modal-box max-w-5xl bg-[#032B88] text-white">
         <form method="dialog">
           {/* if there is a button in form, it will close the modal */}
           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
