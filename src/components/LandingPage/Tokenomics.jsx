@@ -17,16 +17,16 @@ const Tokenomics = () => {
           </p>
         </div>
         <div className="relative grid grid-cols-12 gap-5 items-center mb-14">
-          <div className="relative col-span-5 max-lg:col-span-12">
+          <div className="relative col-span-4 order-last max-lg:order-first max-lg:col-span-12">
             <Image
               src="/images/enty-token.webp"
               alt=""
               width={500}
               height={500}
-              className="w-full h-full max-w-sm mx-auto"
+              className="w-full h-full max-w-48 mx-auto"
             />
           </div>
-          <div className="relative col-span-7 max-lg:col-span-12">
+          <div className="relative col-span-8 max-lg:col-span-12">
             <div className="grid items-center gap-5 grid-cols-2">
               <div className="relative col-span-1 max-md:col-span-2">
                 <div className="relative p-5 rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#6A97FF] before:backdrop-blur-md before:opacity-10 before:-z-10">
@@ -41,7 +41,7 @@ const Tokenomics = () => {
                   <p className="text-md font-semibold uppercase mb-2">
                     Ticker symbol
                   </p>
-                  <h4 className="text-xl font-bold">EENTY</h4>
+                  <h4 className="text-xl font-bold">ENTY</h4>
                 </div>
               </div>
               <div className="relative col-span-1 max-md:col-span-2">
@@ -49,7 +49,7 @@ const Tokenomics = () => {
                   <p className="text-md font-semibold uppercase mb-2">
                     Total supply
                   </p>
-                  <h4 className="text-xl font-bold">10 trillion tokens</h4>
+                  <h4 className="text-xl font-bold">10 Billion tokens</h4>
                 </div>
               </div>
               <div className="relative col-span-1 max-md:col-span-2">
