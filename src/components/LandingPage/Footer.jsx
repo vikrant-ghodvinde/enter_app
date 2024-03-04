@@ -233,20 +233,26 @@ const Footer = () => {
                 <Medium />
               </Link>
               <Link
-                href="https://bitcointalk.org/index.php?action=profile;u=3585597;sa=forumProfile"
+                href="https://coinmarketcap.com/community/profile/EntyLabs/"
+                target="_blank"
+                rel="noreferrer"
+                className="block text-sm hover:opacity-60 transition duration-300"
+              >
+                <Image
+                  src="/images/icons/social/coinmarketcap.svg"
+                  alt=""
+                  width={100}
+                  height={100}
+                  className="w-5 h-5"
+                />
+              </Link>
+              <Link
+                href="https://bitcointalk.org/index.php?topic=5479876.0"
                 target="_blank"
                 rel="noreferrer"
                 className="block text-sm hover:opacity-60 transition duration-300"
               >
                 <BitcoinCircle />
-              </Link>
-              <Link
-                href="https://bitcointalk.org/index.php?action=profile;u=3585597;sa=forumProfile"
-                target="_blank"
-                rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
-              >
-                <Image src="/images/icons/social/coinmarketcap.svg" alt="" width={100} height={100} className="w-5 h-5" />
               </Link>
             </div>
           </div>

@@ -178,7 +178,7 @@ export default function Home() {
                     />
                   </Link>
                   <Link
-                    href="https://bitcointalk.org/index.php?action=profile;u=3585597;sa=forumProfile"
+                    href="https://bitcointalk.org/index.php?topic=5479876.0"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center justify-center w-9 h-9 rounded-full overflow-hidden"
