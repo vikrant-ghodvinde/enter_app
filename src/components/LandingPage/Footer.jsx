@@ -82,6 +82,7 @@ const Footer = () => {
                 <Link
                   href="https://entylabs.gitbook.io/enterapp.io/roadmap"
                   target="_blank"
+                  rel="noreferrer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   Roadmap
@@ -91,6 +92,7 @@ const Footer = () => {
                 <Link
                   href="https://entylabs.gitbook.io/enterapp.io/overview/welcome-introduction-of-enterapp.io"
                   target="_blank"
+                  rel="noreferrer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   Whitepaper
@@ -100,6 +102,7 @@ const Footer = () => {
                 <Link
                   href="https://enterapp.io/"
                   target="_blank"
+                  rel="noreferrer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   enterapp.io
@@ -109,6 +112,7 @@ const Footer = () => {
                 <Link
                   href="https://www.enterapp.io/#tokenomics"
                   target="_blank"
+                  rel="noreferrer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   Tokenomics
@@ -118,6 +122,7 @@ const Footer = () => {
                 <Link
                   href="https://entylabs.gitbook.io/enterapp.io/fundamentals/faqs"
                   target="_blank"
+                  rel="noreferrer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   FAQs
@@ -127,6 +132,7 @@ const Footer = () => {
                 <Link
                   href="/"
                   target="_blank"
+                  rel="noreferrer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   View Presale Contract
@@ -140,6 +146,8 @@ const Footer = () => {
               <li>
                 <Link
                   href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer/privacy-policy"
+                  target="_blank"
+                  rel="noreferrer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   Privacy Policy
@@ -148,6 +156,8 @@ const Footer = () => {
               <li>
                 <Link
                   href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer/terms-and-conditions"
+                  target="_blank"
+                  rel="noreferrer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   Terms & Conditions
@@ -156,6 +166,8 @@ const Footer = () => {
               <li>
                 <Link
                   href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer"
+                  target="_blank"
+                  rel="noreferrer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   Disclaimer
