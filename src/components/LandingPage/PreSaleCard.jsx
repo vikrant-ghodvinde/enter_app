@@ -4,27 +4,27 @@ import React, { useState } from "react";
 import PurchaseHistoryModal from "../modals/PurchaseHistoryModal/PurchaseHistoryModal";
 
 const PreSaleCard = () => {
-  const [amountType, setAmountType] = useState("ETH");
+  const [amountType, setAmountType] = useState("MATIC");
   return (
     <React.Fragment>
       <div className="relative rounded-3xl border-2 border-white">
         <div className="relative p-5">
           <div className="relative text-center">
             <h2 className="text-xl font-bold">PRESALE STAGE 1 BEGINS IN</h2>
-            <div className="flex items-center justify-evenly gap-5 my-8">
-              <div className="relative">
+            <div className="flex items-center justify-evenly gap-4 max-sm:gap-1 my-8">
+              <div className="relative w-full min-w-16 py-1 border-2 border-white rounded-lg shadow-full-inner">
                 <h4 className="text-2xl font-semibold">45</h4>
                 <p className="text-xs">Days</p>
               </div>
-              <div className="relative">
+              <div className="relative w-full min-w-16 py-1 border-2 border-white rounded-lg shadow-full-inner">
                 <h4 className="text-2xl font-semibold">11</h4>
                 <p className="text-xs">Hours</p>
               </div>
-              <div className="relative">
+              <div className="relative w-full min-w-16 py-1 border-2 border-white rounded-lg shadow-full-inner">
                 <h4 className="text-2xl font-semibold">30</h4>
                 <p className="text-xs">Minutes</p>
               </div>
-              <div className="relative">
+              <div className="relative w-full min-w-16 py-1 border-2 border-white rounded-lg shadow-full-inner">
                 <h4 className="text-2xl font-semibold">20</h4>
                 <p className="text-xs">Seconds</p>
               </div>
@@ -33,7 +33,7 @@ const PreSaleCard = () => {
           </div>
           <div className="relative my-5">
             <div
-              data-title="Listing Price: $0.0115 USDT"
+              data-title="Public Sale Listing Price: $0,050"
               className="relative flex justify-center mb-5 h-5 w-full before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:w-full before:h-1 before:rounded-full before:bg-white after:content-[attr(data-title)] after:relative after:text-sm after:bg-[#032B88] after:px-3"
             ></div>
             <div className="flex items-center justify-center gap-3 flex-wrap">

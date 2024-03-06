@@ -48,7 +48,7 @@ export default function Home() {
               <div className="relative">
                 <p className="font-medium">
                   Follow and subscribe to our Social Media channels to be a part
-                  of our upcoming Presale:
+                  of our Presale:
                 </p>
                 <div className="flex items-center max-lg:justify-center flex-wrap gap-4 mt-4">
                   <Link

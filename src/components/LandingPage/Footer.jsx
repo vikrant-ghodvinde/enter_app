@@ -135,11 +135,11 @@ const Footer = () => {
             </ul>
           </div>
           <div className="relative col-span-3 max-md:col-span-12 max-lg:col-span-4">
-            <h5 className="text-md font-semibold mb-5 max-md:mb-2">Policy</h5>
+            <h5 className="text-md font-semibold mb-5 max-md:mb-2">ICO - Presale Disclaimer</h5>
             <ul>
               <li>
                 <Link
-                  href="/"
+                  href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer/privacy-policy"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   Privacy Policy
@@ -147,18 +147,18 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer/terms-and-conditions"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
-                  Legal use
+                  Terms & Conditions
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
-                  Term of use
+                  Disclaimer
                 </Link>
               </li>
             </ul>
@@ -167,12 +167,12 @@ const Footer = () => {
             <h5 className="text-md max-lg:text-center font-semibold mb-5">
               Stay connected and be our Fan
             </h5>
-            <div className="flex items-center max-lg:justify-center flex-wrap gap-3">
+            <div className="flex items-center max-lg:justify-center flex-wrap gap-7">
               <Link
                 href="https://twitter.com/Enterapp_io"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
+                className="block text-md hover:opacity-60 transition duration-300"
               >
                 <X />
               </Link>
@@ -180,7 +180,7 @@ const Footer = () => {
                 href="https://t.me/enterapp_io"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
+                className="block text-md hover:opacity-60 transition duration-300"
               >
                 <Telegram />
               </Link>
@@ -188,7 +188,7 @@ const Footer = () => {
                 href="https://t.me/enterapp_group"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
+                className="block text-md hover:opacity-60 transition duration-300"
               >
                 <Telegram />
               </Link>
@@ -196,7 +196,7 @@ const Footer = () => {
                 href="https://www.facebook.com/enterapp.io"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
+                className="block text-md hover:opacity-60 transition duration-300"
               >
                 <Facebook />
               </Link>
@@ -204,7 +204,7 @@ const Footer = () => {
                 href="https://www.youtube.com/@EntyLabs"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
+                className="block text-md hover:opacity-60 transition duration-300"
               >
                 <Youtube />
               </Link>
@@ -212,7 +212,7 @@ const Footer = () => {
                 href="https://discord.gg/Fw4uCRCDek"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
+                className="block text-md hover:opacity-60 transition duration-300"
               >
                 <Discord />
               </Link>
@@ -220,7 +220,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/enterapp-io/?viewAsMember=true"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
+                className="block text-md hover:opacity-60 transition duration-300"
               >
                 <Linkedin />
               </Link>
@@ -228,7 +228,7 @@ const Footer = () => {
                 href="https://medium.com/@entylabs"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
+                className="block text-md hover:opacity-60 transition duration-300"
               >
                 <Medium />
               </Link>
@@ -236,21 +236,21 @@ const Footer = () => {
                 href="https://coinmarketcap.com/community/profile/EntyLabs/"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
+                className="block text-md hover:opacity-60 transition duration-300"
               >
                 <Image
                   src="/images/icons/social/coinmarketcap.svg"
                   alt=""
                   width={100}
                   height={100}
-                  className="w-5 h-5"
+                  className="w-6 h-6"
                 />
               </Link>
               <Link
                 href="https://bitcointalk.org/index.php?topic=5479876.0"
                 target="_blank"
                 rel="noreferrer"
-                className="block text-sm hover:opacity-60 transition duration-300"
+                className="block text-md hover:opacity-60 transition duration-300"
               >
                 <BitcoinCircle />
               </Link>

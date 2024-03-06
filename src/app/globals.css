@@ -49,18 +49,24 @@ p {
 
 /* CUSTOM BADGE */
 .custom-badge {
-  @apply relative text-[10px] font-medium py-1 px-2 rounded-badge
+  @apply relative text-[10px] font-medium py-1 px-2 rounded-badge;
 }
 
 .custom-badge.badge-success {
-  @apply bg-green-500 text-white
+  @apply bg-green-500 text-white;
 }
 
 .custom-badge.badge-danger {
-  @apply bg-red-500 text-white
+  @apply bg-red-500 text-white;
 }
 
 /* TABLE CONFIGURATION */
 .table-border-white tr {
-  @apply border-white
+  @apply border-white;
+}
+
+/* SHADOW CONFIGURATION */
+.shadow-full-inner {
+  box-shadow: inset 2px 2px 8px rgba(255, 255, 255, .5),
+              inset -2px -2px 8px rgba(255, 255, 255, .5);
 }
