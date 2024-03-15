@@ -29,7 +29,7 @@ const PreSaleCard = () => {
                 <p className="text-xs">Seconds</p>
               </div>
             </div>
-            <p className="text-sm">Stage 1 Price: $0.0035 USDT</p>
+            <p className="text-sm">Stage 1 Price: $0.0010 USDT</p>
           </div>
           <div className="relative my-5">
             <div

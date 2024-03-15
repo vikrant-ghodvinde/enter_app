@@ -4,6 +4,7 @@ import Footer from "@/components/LandingPage/Footer";
 import KYC from "@/components/LandingPage/KYC";
 import Navbar from "@/components/LandingPage/Navbar";
 import PreSaleCard from "@/components/LandingPage/PreSaleCard";
+import PresaleFeatures from "@/components/LandingPage/PresaleFeatures";
 import Tokenomics from "@/components/LandingPage/Tokenomics";
 import Image from "next/image";
 import Link from "next/link";
@@ -46,7 +47,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="relative">
-                <p className="font-medium">
+                <p className="text-sm font-medium">
                   Follow and subscribe to our Social Media channels to be a part
                   of our Presale:
                 </p>
@@ -200,6 +201,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <PresaleFeatures />
       <Tokenomics />
       {/* <KYC /> */}
       <FAQs />

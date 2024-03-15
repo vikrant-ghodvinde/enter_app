@@ -31,14 +31,22 @@ const FAQs = () => {
             <input type="radio" name="my-accordion" />
             <div className="collapse-title font-medium">
               Where can I find out the details on the timing and stages of the
-              projekt?
+              project?
             </div>
             <div className="collapse-content">
               <p>
                 We ensure that we always publish all project information on our
                 social media channels in a timely manner! On our website site,
-                like: www.enterapp.io There is always the most important
-                information!
+                like:{" "}
+                <Link
+                  href="https://enterapp.io/"
+                  target="_blank"
+                  rel="noReferrer"
+                  className="text-white"
+                >
+                  www.enterapp.io
+                </Link>{" "}
+                There is always the most important information!
               </p>
             </div>
           </div>
@@ -129,7 +137,15 @@ const FAQs = () => {
             <div className="collapse-content">
               <p>
                 Yes, the CEO had to confirm his identity through an official KYC
-                procedure at <span className="font-semibold">coredo.eu!</span>
+                procedure at{" "}
+                <Link
+                  href="https://coredo.eu/"
+                  target="_blank"
+                  rel="noReferrer"
+                  className="text-white"
+                >
+                  coredo.eu!
+                </Link>
               </p>
             </div>
           </div>
@@ -139,7 +155,17 @@ const FAQs = () => {
               Where can I find more information about the core Team by EntyLabs?
             </div>
             <div className="collapse-content">
-              <p>You can find more information about the core team HERE!</p>
+              <p>
+                You can find more information about the core team{" "}
+                <Link
+                  href="https://entylabs.gitbook.io/entylabs-docs/team-impressum-legal-contact"
+                  target="_blank"
+                  rel="noReferrer"
+                  className="text-white"
+                >
+                  HERE!
+                </Link>
+              </p>
             </div>
           </div>
           <div className="collapse collapse-arrow join-item border border-white">
