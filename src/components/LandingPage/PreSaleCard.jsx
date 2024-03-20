@@ -91,24 +91,6 @@ const PreSaleCard = () => {
                   <span className="text-[8px]">ERC20</span>
                 </div>
               </button>
-              <button
-                type="button"
-                className={`inline-flex items-center justify-center gap-2 relative min-w-32 h-full py-2 px-5 text-xs border-2 border-white rounded-badge leading-none font-semibold hover:text-black hover:bg-white transition duration-300 ${
-                  amountType === "CARD" ? "bg-white text-black" : ""
-                }`}
-                onClick={() => setAmountType("CARD")}
-              >
-                <Image
-                  src="/images/icons/credit-card.svg"
-                  alt=""
-                  width={100}
-                  height={100}
-                  className="w-6 h-6"
-                />
-                <div className="relative">
-                  <span className="block">CARD</span>
-                </div>
-              </button>
             </div>
           </div>
           <div className="grid grid-cols-1 gap-x-3 gap-y-6">

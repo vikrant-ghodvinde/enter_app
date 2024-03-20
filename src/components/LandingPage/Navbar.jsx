@@ -92,16 +92,16 @@ const Navbar = () => {
                     Whitepaper
                   </Link>
                 </li>
-                {/* <li className="relative mx-3 max-lg:my-1">
+                <li className="relative mx-3 max-lg:my-1">
                     <Link
-                      href="https://enterapp.io/"
+                      href="https://github.com/EntyLabs"
                       target="_blank"
                       rel="noreferrer"
-                      className="block relative py-2 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] transition duration-300"
+                      className="block relative p-2 text-sm font-medium hover:text-[#6A97FF] transition duration-300"
                     >
-                      enterapp.io
+                      GitHub
                     </Link>
-                  </li> */}
+                  </li>
               </ul>
             </div>
             <div className="relative flex items-center gap-3">

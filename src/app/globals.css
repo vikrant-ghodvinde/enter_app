@@ -77,11 +77,6 @@ p {
   padding-right: 24px !important;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  top: var(--swiper-navigation-top-offset, 40%) !important;
-}
-
 .swiper-button-prev::after,
 .swiper-button-next::after {
   font-size: 14px !important;

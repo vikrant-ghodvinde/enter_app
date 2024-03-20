@@ -17,7 +17,7 @@ const FAQs = () => {
           <div className="collapse collapse-arrow join-item border border-white">
             <input type="radio" name="my-accordion" defaultChecked />
             <div className="collapse-title font-medium">
-              What is the $ENTY token?
+              What is the $ENTY token? 
             </div>
             <div className="collapse-content">
               <p>

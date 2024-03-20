@@ -4,7 +4,7 @@ import Footer from "@/components/LandingPage/Footer";
 import KYC from "@/components/LandingPage/KYC";
 import Navbar from "@/components/LandingPage/Navbar";
 import PreSaleCard from "@/components/LandingPage/PreSaleCard";
-import PresaleFeatures from "@/components/LandingPage/PresaleFeatures";
+import PresaleKeySteps from "@/components/LandingPage/PresaleKeySteps";
 import Tokenomics from "@/components/LandingPage/Tokenomics";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,18 +17,29 @@ export default function Home() {
         <div className="landing_container">
           <div className="grid grid-cols-2 items-center gap-8">
             <div className="relative col-span-1 max-lg:col-span-2">
-              <h1 className="text-3xl max-lg:text-xl font-semibold mb-4 leading-normal">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquam enim fuga perferendis praesentium qui.!
+              <h1 className="text-3xl max-lg:text-xl font-semibold mb-4 leading-normal uppercase">
+                Decentralized Banking!
               </h1>
-              <p className="font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
-                veniam consectetur reprehenderit autem blanditiis quam? Tempora,
-                ipsum repellendus expedita voluptatum velit nesciunt, libero in
-                rem adipisci modi, iure voluptate eveniet laboriosam
-                consequuntur assumenda. Numquam, iusto.
+              <p className="mb-3">
+                $ENTY token are an completely decentralized ERC20 utility token
+                on Polygon Network for high-end use cases by the upcoming
+                decentralized mobile Crypto Web3 Neobank called enterapp.io by
+                end of this year!
               </p>
-              <div className="relative flex items-center gap-5 flex-wrap my-8">
+              <p className="font-semibold text-white">The Fact’s of the $ENTY TOKEN Presale:</p>
+              <ul className="ps-6 list-disc text-white text-sm mb-3 leading-6">
+                <li>Seamless & Trustless Sale!</li>
+                <li>No Team Token!</li>
+                <li>Vesting Schedule mechanism</li>
+                <li>Whale protected!</li>
+                <li>Secure and clear through KYC verification by investors!</li>
+              </ul>
+              <p className="mb-3">
+                Join our different Airdrop and Bounty Campaigns through the
+                whole presale! Our upcoming Staking Dapp (see Whitepaper) will
+                give all stakers very lucrative Rewards
+              </p>
+              <div className="relative flex items-center gap-5 flex-wrap my-4">
                 <Link
                   href="https://enterapp.io/"
                   target="_blank"
@@ -38,12 +49,12 @@ export default function Home() {
                   enterapp.io
                 </Link>
                 <Link
-                  href="/"
+                  href="https://entylabs.gitbook.io/enterapp.io/tokenomics/the-whole-vesting-schedule-of-the-enty-token"
                   target="_blank"
                   rel="noreferrer"
                   className="block relative py-2.5 px-6 text-sm border-2 border-white text-white rounded-badge font-medium hover:text-black hover:bg-white transition duration-300"
                 >
-                  View Presale Contract
+                  Vesting Schedule
                 </Link>
               </div>
               <div className="relative">
@@ -201,7 +212,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <PresaleFeatures />
+      <PresaleKeySteps />
       <Tokenomics />
       {/* <KYC /> */}
       <FAQs />
