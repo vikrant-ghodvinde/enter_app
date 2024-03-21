@@ -34,7 +34,7 @@ const PresaleKeySteps = () => {
             <div className="grid grid-cols-12 items-center gap-5">
               <div className="relative col-span-5 max-md:col-span-12">
                 <Image
-                  src="/images/login.png"
+                  src="/images/login.webp"
                   alt=""
                   width={500}
                   height={500}
@@ -69,7 +69,7 @@ const PresaleKeySteps = () => {
             <div className="grid grid-cols-12 items-center gap-5">
               <div className="relative col-span-5 max-md:col-span-12">
                 <Image
-                  src="/images/money-wallet.png"
+                  src="/images/money-wallet.webp"
                   alt=""
                   width={500}
                   height={500}
@@ -103,7 +103,7 @@ const PresaleKeySteps = () => {
             <div className="grid grid-cols-12 items-center gap-5">
               <div className="relative col-span-5 max-md:col-span-12">
                 <Image
-                  src="/images/shopping-cart.png"
+                  src="/images/3d-enty-logo-b&w.webp"
                   alt=""
                   width={500}
                   height={500}
