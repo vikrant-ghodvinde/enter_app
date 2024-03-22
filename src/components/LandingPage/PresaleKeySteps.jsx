@@ -54,12 +54,12 @@ const PresaleKeySteps = () => {
                     $ENTY Token presale!
                   </p>
                   <div className="inline-block">
-                    <button
-                      type="button"
+                    <Link
+                      href="/"
                       className="inline-block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] transition duration-300"
                     >
-                      Buy Token
-                    </button>
+                      Register
+                    </Link>
                   </div>
                 </div>
               </div>

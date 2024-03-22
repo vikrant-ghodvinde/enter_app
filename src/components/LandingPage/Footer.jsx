@@ -130,19 +130,41 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://github.com/EntyLabs"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
-                  View Presale Contract
+                  GitHub
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://entylabs.gitbook.io/enterapp.io/tokenomics/the-whole-vesting-schedule-of-the-enty-token"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                >
+                  Vesting Schedule
                 </Link>
               </li>
             </ul>
           </div>
           <div className="relative col-span-3 max-md:col-span-12 max-lg:col-span-4">
-            <h5 className="text-md font-semibold mb-5 max-md:mb-2">ICO - Presale Disclaimer</h5>
+            <h5 className="text-md font-semibold mb-5 max-md:mb-2">
+              ICO - Presale Disclaimer
+            </h5>
             <ul>
+              <li>
+                <Link
+                  href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                >
+                  Disclaimer
+                </Link>
+              </li>
               <li>
                 <Link
                   href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer/privacy-policy"
@@ -161,16 +183,6 @@ const Footer = () => {
                   className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
                 >
                   Terms & Conditions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
-                >
-                  Disclaimer
                 </Link>
               </li>
             </ul>

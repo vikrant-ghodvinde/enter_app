@@ -13,8 +13,7 @@ const PurchaseHistoryModal = () => {
         <div className="relative mb-8">
           <h3 className="font-bold text-lg">Purchase History</h3>
           <p className="text-sm text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
-            porro.
+            Your complete record of past purchases and transactions with us.
           </p>
         </div>
         <div className="overflow-x-auto">
@@ -33,7 +32,7 @@ const PurchaseHistoryModal = () => {
                 <td>1</td>
                 <td></td>
                 <td>1</td>
-                <td>01 Mar, 2024</td>
+                <td>{new Date().toLocaleDateString("en-US", {day: "2-digit", month: "short", year: "numeric" })}</td>
                 <td>
                   <span className="custom-badge badge-success">Success</span>
                 </td>
