@@ -39,7 +39,7 @@ const Navbar = () => {
                 <li className="relative mx-3 max-lg:my-1">
                   <Link
                     href="/#tokenomics"
-                    className="block relative p-2 text-sm font-medium hover:text-[#6A97FF] transition duration-300"
+                    className="block relative p-2 text-sm font-medium hover:text-light-blue transition duration-300"
                   >
                     Tokenomics
                   </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <li className="relative mx-3 max-lg:my-1">
                   <Link
                     href="/#faqs"
-                    className="block relative p-2 text-sm font-medium hover:text-[#6A97FF] transition duration-300"
+                    className="block relative p-2 text-sm font-medium hover:text-light-blue transition duration-300"
                   >
                     FAQ
                   </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
                     href="https://polygonscan.com/token/0x25b70fa255fb51b40e82a73b1661e95d8c568870"
                     target="_blank"
                     rel="noreferrer"
-                    className="block relative p-2 text-sm font-medium hover:text-[#6A97FF] transition duration-300"
+                    className="block relative p-2 text-sm font-medium hover:text-light-blue transition duration-300"
                   >
                     Verified
                   </Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
                     href="https://200945230-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FZyAZDjtHZ37ZUKB08GmT%2Fuploads%2Foju7d5kqho9zXBsGpHJo%2FEntyToken%20Security%20Audit%20Report.pdf?alt=media&token=eab1aa52-97c4-46b4-9d2b-cfdb43b11c5a"
                     target="_blank"
                     rel="noreferrer"
-                    className="block relative p-2 text-sm font-medium hover:text-[#6A97FF] transition duration-300"
+                    className="block relative p-2 text-sm font-medium hover:text-light-blue transition duration-300"
                   >
                     Audit
                   </Link>
@@ -77,7 +77,7 @@ const Navbar = () => {
                     href="https://entylabs.gitbook.io/enterapp.io/roadmap"
                     target="_blank"
                     rel="noreferrer"
-                    className="block relative p-2 text-sm font-medium hover:text-[#6A97FF] transition duration-300"
+                    className="block relative p-2 text-sm font-medium hover:text-light-blue transition duration-300"
                   >
                     Roadmap
                   </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
                     href="https://entylabs.gitbook.io/enterapp.io/overview/welcome-introduction-of-enterapp.io"
                     target="_blank"
                     rel="noreferrer"
-                    className="block relative p-2 text-sm font-medium hover:text-[#6A97FF] transition duration-300"
+                    className="block relative p-2 text-sm font-medium hover:text-light-blue transition duration-300"
                   >
                     Whitepaper
                   </Link>
@@ -97,7 +97,7 @@ const Navbar = () => {
                       href="https://github.com/EntyLabs"
                       target="_blank"
                       rel="noreferrer"
-                      className="block relative p-2 text-sm font-medium hover:text-[#6A97FF] transition duration-300"
+                      className="block relative p-2 text-sm font-medium hover:text-light-blue transition duration-300"
                     >
                       GitHub
                     </Link>
@@ -107,7 +107,7 @@ const Navbar = () => {
             <div className="relative flex items-center gap-3">
               <button
                 type="button"
-                className="block relative py-2 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] transition duration-300"
+                className="block relative py-2 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-light-blue transition duration-300"
               >
                 <span className="inline-block max-md:hidden">
                   Connect Wallet

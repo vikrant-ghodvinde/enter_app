@@ -11,7 +11,7 @@ const PresaleFeatures = () => {
         <div className="text-center mb-20">
           <h2
             data-title="Features"
-            className="relative uppercase text-4xl max-lg:text-2xl font-bold z-10 before:content-[attr(data-title)]  before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[50%] before:translate-y-[-50%] before:text-[100px] before:text-[#6A97FF] before:-z-10 before:opacity-5 before:whitespace-nowrap"
+            className="relative uppercase text-4xl max-lg:text-2xl font-bold z-10 before:content-[attr(data-title)]  before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[50%] before:translate-y-[-50%] before:text-[100px] before:text-light-blue before:-z-10 before:opacity-5 before:whitespace-nowrap"
           >
             $ENTY Token Launchpad Presale Key Features
           </h2>
@@ -60,7 +60,7 @@ const PresaleFeatures = () => {
                       <li>Max Amount $ / Wallet: 1000$</li>
                     </ul>
                   </div>
-                  <div className="relative rounded-lg bg-[#6A97FF] mt-5">
+                  <div className="relative rounded-lg bg-light-blue mt-5">
                     <div className="relative text-center p-4">
                       <h4 className="text-md font-semibold text-white mb-3">
                         Benefits
@@ -97,7 +97,7 @@ const PresaleFeatures = () => {
                       <li>Max Amount $ / Wallet: 2500$</li>
                     </ul>
                   </div>
-                  <div className="relative rounded-lg bg-[#6A97FF] mt-5">
+                  <div className="relative rounded-lg bg-light-blue mt-5">
                     <div className="relative text-center p-4">
                       <h4 className="text-md font-semibold text-white mb-3">
                         Benefits
@@ -134,7 +134,7 @@ const PresaleFeatures = () => {
                       <li>Max Amount $ / Wallet: 5000$</li>
                     </ul>
                   </div>
-                  <div className="relative rounded-lg bg-[#6A97FF] mt-5">
+                  <div className="relative rounded-lg bg-light-blue mt-5">
                     <div className="relative text-center p-4">
                       <h4 className="text-md font-semibold text-white mb-3">
                         Benefits
@@ -168,7 +168,7 @@ const PresaleFeatures = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="relative rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#6A97FF] before:backdrop-blur-md before:opacity-10 before:-z-10">
+              {/* <div className="relative rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-light-blue before:backdrop-blur-md before:opacity-10 before:-z-10">
                 <div className="relative text-center p-5">
                   <h4 className="text-md font-semibold mb-3">Benefits</h4>
                   <p className="text-white text-sm">

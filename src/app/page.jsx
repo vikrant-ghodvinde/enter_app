@@ -52,17 +52,17 @@ export default function Home() {
                   href="https://enterapp.io/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block relative lowercase py-2.5 px-6 text-sm border-2 border-white bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] hover:border-[#6A97FF] transition duration-300"
+                  className="block relative lowercase py-2.5 px-6 text-sm border-2 border-white bg-white text-black rounded-badge font-medium hover:text-white hover:bg-light-blue hover:border-light-blue transition duration-300"
                 >
                   enterapp.io
                 </Link>
                 <Link
-                  href="https://entylabs.gitbook.io/enterapp.io/tokenomics/the-whole-vesting-schedule-of-the-enty-token"
+                  href="https://entylabs.gitbook.io/presale.enterapp.io/"
                   target="_blank"
                   rel="noreferrer"
                   className="block relative py-2.5 px-6 text-sm border-2 border-white text-white rounded-badge font-medium hover:text-black hover:bg-white transition duration-300"
                 >
-                  Vesting Schedule
+                  Introduction
                 </Link>
               </div>
               <div className="relative">
@@ -227,7 +227,7 @@ export default function Home() {
       <Footer />
 
       {/* DESIGN ELEMENTS */}
-      <div className="fixed bottom-0 right-10 w-80 h-80 rounded-full bg-[#6A97FF] blur-3xl -z-50 opacity-50"></div>
+      <div className="fixed bottom-0 right-10 w-80 h-80 rounded-full bg-light-blue blur-3xl -z-50 opacity-50"></div>
     </div>
   );
 }

@@ -14,7 +14,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="relative py-14 border-t border-[#6A97FF]">
+    <footer className="relative py-14 border-t border-light-blue">
       <div className="landing_container">
         <div className="grid grid-cols-12 gap-x-14 max-md:gap-x-0 gap-y-8">
           <div className="relative col-span-3 max-md:col-span-12 max-lg:col-span-4">
@@ -63,7 +63,7 @@ const Footer = () => {
                   href="https://polygonscan.com/token/0x25b70fa255fb51b40e82a73b1661e95d8c568870"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   Verified
                 </Link>
@@ -73,7 +73,7 @@ const Footer = () => {
                   href="https://200945230-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FZyAZDjtHZ37ZUKB08GmT%2Fuploads%2Foju7d5kqho9zXBsGpHJo%2FEntyToken%20Security%20Audit%20Report.pdf?alt=media&token=eab1aa52-97c4-46b4-9d2b-cfdb43b11c5a"
                   rel="noreferrer"
                   target="_blank"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   Audit
                 </Link>
@@ -83,7 +83,7 @@ const Footer = () => {
                   href="https://entylabs.gitbook.io/enterapp.io/roadmap"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   Roadmap
                 </Link>
@@ -93,7 +93,7 @@ const Footer = () => {
                   href="https://entylabs.gitbook.io/enterapp.io/overview/welcome-introduction-of-enterapp.io"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   Whitepaper
                 </Link>
@@ -103,7 +103,7 @@ const Footer = () => {
                   href="https://enterapp.io/"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   enterapp.io
                 </Link>
@@ -113,7 +113,7 @@ const Footer = () => {
                   href="https://www.enterapp.io/#tokenomics"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   Tokenomics
                 </Link>
@@ -123,7 +123,7 @@ const Footer = () => {
                   href="https://entylabs.gitbook.io/enterapp.io/fundamentals/faqs"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   FAQs
                 </Link>
@@ -133,7 +133,7 @@ const Footer = () => {
                   href="https://github.com/EntyLabs"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   GitHub
                 </Link>
@@ -143,7 +143,7 @@ const Footer = () => {
                   href="https://entylabs.gitbook.io/enterapp.io/tokenomics/the-whole-vesting-schedule-of-the-enty-token"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   Vesting Schedule
                 </Link>
@@ -160,7 +160,7 @@ const Footer = () => {
                   href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   Disclaimer
                 </Link>
@@ -170,7 +170,7 @@ const Footer = () => {
                   href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer/privacy-policy"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   Privacy Policy
                 </Link>
@@ -180,7 +180,7 @@ const Footer = () => {
                   href="https://entylabs.gitbook.io/enterapp.io/overview/ico-presale/ico-presale-disclaimer/terms-and-conditions"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block text-sm text-paragraph py-1.5 hover:text-[#6A97FF] transition duration-300"
+                  className="inline-block text-sm text-paragraph py-1.5 hover:text-light-blue transition duration-300"
                 >
                   Terms & Conditions
                 </Link>
@@ -286,7 +286,7 @@ const Footer = () => {
             <li>
               <Link
                 href="/"
-                className="block text-sm text-paragraph hover:text-[#6A97FF] p-2 transition duration-300"
+                className="block text-sm text-paragraph hover:text-light-blue p-2 transition duration-300"
               >
                 Privacy Policy
               </Link>
@@ -294,7 +294,7 @@ const Footer = () => {
             <li>
               <Link
                 href="/"
-                className="block text-sm text-paragraph hover:text-[#6A97FF] p-2 transition duration-300"
+                className="block text-sm text-paragraph hover:text-light-blue p-2 transition duration-300"
               >
                 Legal use
               </Link>
@@ -302,7 +302,7 @@ const Footer = () => {
             <li>
               <Link
                 href="/"
-                className="block text-sm text-paragraph hover:text-[#6A97FF] p-2 transition duration-300"
+                className="block text-sm text-paragraph hover:text-light-blue p-2 transition duration-300"
               >
                 Term of use
               </Link>

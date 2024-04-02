@@ -8,7 +8,7 @@ const Tokenomics = () => {
         <div className="text-center mb-10">
           <h2
             data-title="Tokenomics"
-            className="relative uppercase text-4xl max-lg:text-2xl font-bold z-10 before:content-[attr(data-title)]  before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[50%] before:translate-y-[-50%] before:text-[100px] before:text-[#6A97FF] before:-z-10 before:opacity-5 before:whitespace-nowrap"
+            className="relative uppercase text-4xl max-lg:text-2xl font-bold z-10 before:content-[attr(data-title)]  before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[50%] before:translate-y-[-50%] before:text-[100px] before:text-light-blue before:-z-10 before:opacity-5 before:whitespace-nowrap"
           >
             Tokenomics
           </h2>
@@ -29,7 +29,7 @@ const Tokenomics = () => {
           <div className="relative col-span-8 max-lg:col-span-12">
             <div className="grid items-center gap-5 grid-cols-2">
               <div className="relative col-span-1 max-md:col-span-2">
-                <div className="relative p-5 rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#6A97FF] before:backdrop-blur-md before:opacity-10 before:-z-10">
+                <div className="relative p-5 rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-light-blue before:backdrop-blur-md before:opacity-10 before:-z-10">
                   <p className="text-md font-semibold uppercase mb-2">
                     Token Name
                   </p>
@@ -37,7 +37,7 @@ const Tokenomics = () => {
                 </div>
               </div>
               <div className="relative col-span-1 max-md:col-span-2">
-                <div className="relative p-5 rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#6A97FF] before:backdrop-blur-md before:opacity-10 before:-z-10">
+                <div className="relative p-5 rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-light-blue before:backdrop-blur-md before:opacity-10 before:-z-10">
                   <p className="text-md font-semibold uppercase mb-2">
                     Ticker symbol
                   </p>
@@ -45,7 +45,7 @@ const Tokenomics = () => {
                 </div>
               </div>
               <div className="relative col-span-1 max-md:col-span-2">
-                <div className="relative p-5 rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#6A97FF] before:backdrop-blur-md before:opacity-10 before:-z-10">
+                <div className="relative p-5 rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-light-blue before:backdrop-blur-md before:opacity-10 before:-z-10">
                   <p className="text-md font-semibold uppercase mb-2">
                     Total supply
                   </p>
@@ -53,7 +53,7 @@ const Tokenomics = () => {
                 </div>
               </div>
               <div className="relative col-span-1 max-md:col-span-2">
-                <div className="relative p-5 rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#6A97FF] before:backdrop-blur-md before:opacity-10 before:-z-10">
+                <div className="relative p-5 rounded-lg overflow-hidden z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-light-blue before:backdrop-blur-md before:opacity-10 before:-z-10">
                   <p className="text-md font-semibold uppercase mb-2">
                     Network
                   </p>

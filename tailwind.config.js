@@ -24,9 +24,13 @@ module.exports = {
         "black-700": "rgba(0, 0, 0, 0.7)",
         "black-800": "rgba(0, 0, 0, 0.8)",
         "black-900": "rgba(0, 0, 0, 0.9)",
+        "light-blue": "#6A97FF",
+        "dark-blue": "#032B88",
       },
       colors: {
         paragraph: "#9fb3d4",
+        "light-blue": "#6A97FF",
+        "dark-blue": "#032B88",
       },
     },
   },

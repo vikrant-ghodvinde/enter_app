@@ -13,7 +13,7 @@ const PresaleKeySteps = () => {
         <div className="text-center mb-10">
           <h2
             data-title="Presale Key Steps"
-            className="relative uppercase text-4xl max-lg:text-2xl font-bold z-10 before:content-[attr(data-title)]  before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[50%] before:translate-y-[-50%] before:text-[100px] before:text-[#6A97FF] before:-z-10 before:opacity-5 before:whitespace-nowrap"
+            className="relative uppercase text-4xl max-lg:text-2xl font-bold z-10 before:content-[attr(data-title)]  before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[50%] before:translate-y-[-50%] before:text-[100px] before:text-light-blue before:-z-10 before:opacity-5 before:whitespace-nowrap"
           >
             $ENTY Token Launchpad Presale Key Steps
           </h2>
@@ -56,7 +56,7 @@ const PresaleKeySteps = () => {
                   <div className="inline-block">
                     <Link
                       href="/"
-                      className="inline-block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] transition duration-300"
+                      className="inline-block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-light-blue transition duration-300"
                     >
                       Register
                     </Link>
@@ -90,7 +90,7 @@ const PresaleKeySteps = () => {
                   <div className="inline-block">
                     <button
                       type="button"
-                      className="inline-block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] transition duration-300"
+                      className="inline-block relative w-full text-center py-2.5 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-light-blue transition duration-300"
                     >
                       Polygonscan
                     </button>

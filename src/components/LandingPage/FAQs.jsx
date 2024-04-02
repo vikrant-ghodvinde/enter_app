@@ -8,7 +8,7 @@ const FAQs = () => {
         <div className="text-center mb-20">
           <h2
             data-title="FAQs"
-            className="relative uppercase text-4xl max-lg:text-2xl font-bold z-10 before:content-[attr(data-title)]  before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[50%] before:translate-y-[-50%] before:text-[100px] before:text-[#6A97FF] before:-z-10 before:opacity-5 before:whitespace-nowrap"
+            className="relative uppercase text-4xl max-lg:text-2xl font-bold z-10 before:content-[attr(data-title)]  before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[50%] before:translate-y-[-50%] before:text-[100px] before:text-light-blue before:-z-10 before:opacity-5 before:whitespace-nowrap"
           >
             FAQs
           </h2>
@@ -220,7 +220,7 @@ const FAQs = () => {
             href="https://entylabs.gitbook.io/enterapp.io/fundamentals/faqs"
             target="_blank"
             rel="noreferrer"
-            className="inline-block relative py-2 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-[#6A97FF] transition duration-300"
+            className="inline-block relative py-2 px-6 text-sm bg-white text-black rounded-badge font-medium hover:text-white hover:bg-light-blue transition duration-300"
           >
             More FAQs
           </Link>
