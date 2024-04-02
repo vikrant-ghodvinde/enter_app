@@ -24,7 +24,7 @@ export default function Home() {
                 $ENTY token are an completely decentralized ERC20 utility token
                 on Polygon Network for high-end use cases by the upcoming
                 decentralized mobile Crypto Web3 Neobank called{" "}
-                <Link href="ttps://enterapp.io/" className="text-white">
+                <Link href="https://enterapp.io/" className="text-white">
                   enter<span className="text-primary">app</span>.io
                 </Link>{" "}
                 by end of this year!
@@ -42,7 +42,7 @@ export default function Home() {
               <p className="mb-3">
                 Join our different Airdrop and Bounty Campaigns through the
                 whole presale! Our upcoming Staking Dapp{" "}
-                <Link href="ttps://enterapp.io/" className="text-white">
+                <Link href="https://enterapp.io/" className="text-white">
                   enter<span className="text-primary">app</span>.io
                 </Link>{" "}
                 will give all stakers very lucrative Rewards
