@@ -25,7 +25,7 @@ export default function Home() {
                 on Polygon Network for high-end use cases by the upcoming
                 decentralized mobile Crypto Web3 Neobank called{" "}
                 <Link href="https://enterapp.io/" target="_blank" rel="noreferrer" className="text-white">
-                  enter<span className="text-primary">app</span>.io
+                  enter<span className="text-light-blue">app</span>.io
                 </Link>{" "}
                 by end of this year!
               </p>
@@ -43,7 +43,7 @@ export default function Home() {
                 Join our different Airdrop and Bounty Campaigns through the
                 whole presale! Our upcoming Staking Dapp{" "}
                 <Link href="https://enterapp.io/" target="_blank" rel="noreferrer" className="text-white">
-                  enter<span className="text-primary">app</span>.io
+                  enter<span className="text-light-blue">app</span>.io
                 </Link>{" "}
                 will give all stakers very lucrative Rewards
               </p>
