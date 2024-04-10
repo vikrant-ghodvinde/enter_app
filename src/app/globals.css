@@ -120,3 +120,29 @@ p {
     justify-content: center;
   }
 }
+
+/* TABS */
+.tabs-boxed {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+}
+
+.tabs-boxed .tab {
+  color: #fff !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.tabs-boxed .tab-active:not(.tab-disabled):not([disabled]),
+.tabs-boxed :is(input:checked) {
+  background-color: #6a97ff !important;
+}
+
+.file-input {
+  @apply bg-transparent border-gray-600 focus:border-white shadow-none outline-none transition-all duration-300;
+}
+
+.file-input {
+  outline: none !important;
+}

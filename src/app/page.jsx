@@ -1,7 +1,6 @@
 "use client";
 import FAQs from "@/components/LandingPage/FAQs";
 import Footer from "@/components/LandingPage/Footer";
-import KYC from "@/components/LandingPage/KYC";
 import Navbar from "@/components/LandingPage/Navbar";
 import PreSaleCard from "@/components/LandingPage/PreSaleCard";
 import PresaleKeySteps from "@/components/LandingPage/PresaleKeySteps";
@@ -214,7 +213,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="relative col-span-1 max-lg:col-span-2">
+            <div className="relative col-span-1 max-lg:col-span-2 h-full">
               <PreSaleCard />
             </div>
           </div>
@@ -222,7 +221,6 @@ export default function Home() {
       </section>
       <PresaleKeySteps />
       <Tokenomics />
-      {/* <KYC /> */}
       <FAQs />
       <Footer />
 
